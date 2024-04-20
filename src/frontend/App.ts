@@ -14,6 +14,7 @@ if(rootElement){
               new GameItem (7,'','7.png'),
               new GameItem (8,'','8.png'),
               new GameItem (9,'','9.png'),
+              
        ],rootElement);
        gameApp.renderGameBoard();
 }

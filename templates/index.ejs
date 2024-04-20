@@ -11,7 +11,8 @@
     .gameItem {
         border: 1px solid #ddd;
         border-radius: 5px;
-        box-shadow: 5px 10px 10px #e8f5ee;
+        outline: 5px solid #e8f5ee;
+        /* Sử dụng outline thay cho box-shadow */
         height: 100px;
         overflow: hidden;
         background: #e2e2e2b0;
@@ -27,6 +28,10 @@
     
     main {
         text-align: center;
+    }
+    
+    #board {
+        margin: 0 auto;
     }
     
     .img-fluid {
@@ -49,7 +54,7 @@
             </div>
         </header>
         <div id="app">
-            <section class="row" id="board">
+            <section class="row " id="board">
                 <!-- <div class="col-2 gameItem m-2 p1 text-center">
                     <img src="" alt="" class="img-fluid ">
                 </div> -->

@@ -232,10 +232,10 @@ class GameController {
     changeMatchedBackground(imgElement, isMatched = true) {
         if (imgElement === null || imgElement === void 0 ? void 0 : imgElement.parentElement) {
             if (isMatched) {
-                imgElement.parentElement.className = 'col-2 gameItem m-1 p-1 text-center';
+                imgElement.parentElement.className = 'col-2 gameItem m-2 p-2 text-center';
             }
             else {
-                imgElement.parentElement.className = 'col-2 gameItem m-1 p-1 text-center unmatched';
+                imgElement.parentElement.className = 'col-2 gameItem m-2 p-2 text-center unmatched';
             }
         }
     }
